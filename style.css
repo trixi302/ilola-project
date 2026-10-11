@@ -134,3 +134,30 @@ img {
     margin-top: auto;
     text-align: center;
 }
+/*ACTIVITY 5:EDUCATION AND EXPERIENCE*/
+.table-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+ 
+th, td {
+    border: 1px solid #420b2b;
+    padding: 12px;
+    text-align: left;
+}
+ 
+th {
+    background-color: #420b2b;
+    color: white;
+}
+ 
+tr:nth-child(even) td {
+    background-color: #fdeef4;
+}
