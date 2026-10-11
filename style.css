@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h1, h2 {
+    color: #420b2b;
+}
+
+#home p,
+#about-me p {
+    max-width: 700px;
+    margin: 15px auto;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+#home p:nth-of-type(2) {
+    text-align: center;
+    font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*BUTTON*/
+.btn {
+    display: inline-block;
+    background-color: #420b2b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: pink;
+    color: #420b2b;
+}
+
+/*SKILLS*/
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-card {
+    flex: 1;
+    border: 1px solid #420b2b;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.skill-card h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #420b2b;
+}
+
+.skill-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+/*ACTIVITY 4: PROJECTS*/
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.project-card {
+    border: 1px solid #420b2b;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 260px;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+/*Add image*/
+.project-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: black;
+}
+
+.project-card .tech {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.project-card .btn {
+    margin-top: auto;
+    text-align: center;
+}

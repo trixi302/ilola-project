@@ -3,55 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ilola project</title>
-    <style>
-    .skills-container {
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: center; 
-        gap: 20px; 
-        max-width: 500px; 
-        margin: 0 auto; 
-    }
 
-    .skill-card {
-        border: 2px solid #cccccc;
-        padding: 30px;
-        width: 200px;
-        box-sizing: border-box;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-</style>
-        
- 
-    </style>
+    <title>ilola project</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <section >
-        <img src="C:\Users\ACER\Downloads\trixi id.jpg" alt="Profile photo" width="200">
-       
+
+    <section id="home">
+
+        <img src="images\trixi id.jpg" alt="Profile photo" width="200" >
+
         <h1>Trixi P. Ilola</h1>
         <p>Hi! I'm Trixi 4th year student but not yet graduating, even though
              it gets a bit confusing sometimes. I just want to create simple websites
               that look nice and are actually functional. This is my little portfolio to showcase
                the things I've thought of and learned along the way.</p>
 
-        <p>"Just a normal student trying to survive this web dev life</p>
-      
-        <a href="#about-me">Learn More</a>
-        
+        <p>"Just a normal student trying to survive this web dev life"</p>
+
+        <a class="btn" href="#about-me">Learn More</a>
 
     </section>
     <section id="about-me">
         <h2>About Me</h2>
-     
-        <p>I am currently a student who enjoys exploring the basics of web design and 
-            putting together simple projects. Aside from coding, I like spending my free time listening to music 
-            and watching tech tutorials. This portfolio is just my way of keeping track of everything 
+
+        <p>I am currently a student who enjoys exploring the basics of web design and
+            putting together simple projects. Aside from coding, I like spending my free time listening to music
+            and watching tech tutorials. This portfolio is just my way of keeping track of everything
             I've learned so far.</p>
-       
+
         <div>
             <h3>Background</h3>
             <p>I am currently studying at school and focusing on basic computer studies and web technologies.
@@ -67,8 +48,10 @@
                 <li>watching videos on Youtube</li>
             </ul>
         </div>
+        <br>
+        <a class="btn" href="#skills">Skills</a>
     </section>
-    <section id="skills">
+     <section id="skills">
     <h2>Skills</h2>
     <div class="skills-container">
         <div class="skill-card">
@@ -95,8 +78,40 @@
             <h3>Problem Solving</h3>
             <p>Debugging simple code errors and learning through troubleshooting.</p>
         </div>
+
     </div>
-</section>
-    
+    </section>
+     <!--ACTIVITY 4:PROJECTS-->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of the things I have made so far.</p>
+ 
+        <div class="projects-container">
+            <article class="project-card">
+                <img src="images\PORTFOLIO.png" alt="Screenshot of Personal Portfolio website">
+                <h3>Personal Portfolio</h3>
+                <p class="tech">Made with: HTML, CSS</p>
+                <p>This website! It introduces me, lists my skills, and shows my projects in one simple page.</p>
+                <a class="btn" href="#home">View Project</a>
+            </article>
+ 
+            <article class="project-card">
+                <img src="images\Poster.png" alt="Poster Design preview">
+                <h3>Poster Design</h3>
+                <p class="tech">Made with: Canva</p>
+                <p>A school event poster that I designed using simple layouts, colors, and fonts.</p>
+                <a class="btn" href="#projects">View Project</a>
+            </article>
+ 
+            <article class="project-card">
+                <img src="images\Web Design.png" alt="Simple Web Page preview">
+                <h3>Simple Web Page</h3>
+                <p class="tech">Made with: HTML, CSS</p>
+                <p>A beginner web page I built in class to practice headings, lists, links, and layout.</p>
+                <a class="btn" href="#projects">View Project</a>
+            </article>
+        </div>
+    </section>
+
 </body>
 </html>
