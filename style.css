@@ -182,3 +182,52 @@ nav a {
 nav a:hover {
     color: pink;
 }
+
+/*ACTIVITY 7:CONTACT*/
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #420b2b;
+    border-radius: 10px;
+    text-align: left;
+}
+ 
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+ 
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #420b2b;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+ 
+input:hover, textarea:hover {
+    border-color: pink;
+}
+ 
+input:focus, textarea:focus {
+    background-color: #fdeef4;
+    outline: 2px solid pink;
+}
+ 
+button {
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+ 
+button:focus {
+    background-color: pink;
+    color: #420b2b;
+}
