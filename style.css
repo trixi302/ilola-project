@@ -231,3 +231,61 @@ button:focus {
     background-color: pink;
     color: #420b2b;
 }
+/*ACTIVITY 8:RESPONSIVE*/
+img {
+    max-width: 100%;
+}
+ 
+@media (max-width: 768px) {
+    .skills-container {
+        flex-wrap: wrap;
+    }
+ 
+    .skill-card {
+        flex: 1 1 200px;
+    }
+}
+ 
+@media (max-width: 480px) {
+    section {
+        padding: 30px 12px;
+    }
+ 
+    h1 {
+        font-size: 1.6rem;
+    }
+ 
+    h2 {
+        font-size: 1.3rem;
+    }
+ 
+    nav {
+        gap: 10px;
+        padding: 10px;
+    }
+ 
+    nav a {
+        font-size: 0.9rem;
+    }
+ 
+    .skills-container {
+        flex-direction: column;
+    }
+ 
+    .skill-card {
+        flex: none;
+    }
+ 
+    .project-card {
+        width: 100%;
+    }
+ 
+    th, td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+ 
+    form {
+        padding: 15px;
+    }
+}
